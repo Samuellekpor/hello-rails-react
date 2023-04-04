@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   # root "articles#index"
   namespace :api do
     namespace :v1 do
-      resources :greetings, only: [:index]
+      resources :messages, only: [:index]
     end
   end
 end
