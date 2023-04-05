@@ -24,5 +24,4 @@ export const getGreeting = createAsyncThunk(GET_MESSAGE,
   async () => {
     const res = await axios.get(BASE_URL);
     return res.data;
-  }
-);
+  });

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import { getGreeting } from '../redux/greeting/greeting';
 import { useSelector, useDispatch } from 'react-redux';
+import { getGreeting } from '../redux/greeting/greeting';
 
 const Greeting = () => {
   const dispatch = useDispatch();
@@ -14,7 +14,10 @@ const Greeting = () => {
   return (
     <div>
       <h1>Greeting</h1>
-      <div>Message: {message.content}</div>
+      <div>
+        Message:
+        {message.content}
+      </div>
     </div>
   );
 };
