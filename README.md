@@ -1,24 +1,169 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<a name="readme-top"></a>
 
-Things you may want to cover:
+<!-- TABLE OF CONTENTS -->
 
-* Ruby version
+# 📗 Table of Contents
 
-* System dependencies
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-* Configuration
+<!-- PROJECT DESCRIPTION -->
 
-* Database creation
+# 📖 HELLO WORLD RAILS APP <a name="about-project"></a>
 
-* Database initialization
+> An app that implements a connection between a Ruby on Rails back-end and React front-end
 
-* How to run the test suite
+### Key Features <a name="key-features"></a>
 
-* Services (job queues, cache servers, search engines, etc.)
+- Fetch greetings from rails API
+- Display A random Greeting
 
-* Deployment instructions
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-* ...
+<!-- LIVE DEMO -->
+
+<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
+
+<!-- > Add a link to your deployed project. -->
+
+
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+```sh
+ gem install rails
+```
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+ git https://github.com/Samuellekpor/hello-rails-react.git
+```
+
+
+### Install
+
+Install this project with:
+
+```
+  cd hello-rails-react
+  bundle install
+```
+```
+  Setup database credentials
+  config/database.yml
+```
+
+
+### Usage
+
+To run the project, execute the following command:
+
+```
+Bundle Install
+```
+
+```
+./bin/dev
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```
+rspec spec --format documentation
+```
+
+<!-- ### Deployment
+
+You can deploy this project using:
+
+```
+
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Sammuel LEKPOR**
+
+- GitHub: [@gSamuellekpor](https://github.com/Samuellekpor)
+- Twitter: [@samuel_lekpor](https://twitter.com/samuel_lekpor)
+- LinkedIn: [sammuel_kepor](https://linkedin.com/in/sammuel-lekpor)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+ ## 🔭 Future Features <a name="future-features"></a> 
+
+
+- Add a new greeting
+- Select language to get greeting
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+ ## ⭐️ Show your support <a name="support"></a> 
+
+If you like this project, Please give it a ⭐️
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+ ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Thanks [@microverse](https://www.microverse.org/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
