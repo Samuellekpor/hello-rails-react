@@ -15,7 +15,7 @@ const Greeting = () => {
     <div>
       <h1>Greeting</h1>
       <div>
-        Message:
+        Message: 
         {message.content}
       </div>
     </div>
